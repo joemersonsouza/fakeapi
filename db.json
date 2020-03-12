@@ -1,8 +1,10 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+
+  "users": [
+    { "id": 1, "email": "mymail1.com", "role": "user", "success": "true", "errors": [] },
+    { "id": 2, "email": "mymail2.com", "role": "user", "success": "true", "errors": [] },
+    { "id": 3, "email": "mymail3.com", "role": "admin", "success": "true", "errors": [] },
+    { "id": 0, "email": null, "role": null, "success": "false", "errors": [{"message":"error"}] }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
